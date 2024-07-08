@@ -1,0 +1,19 @@
+we <- read.csv("cancer.csv", header = TRUE)
+head(we)
+
+we.mod <- we[3:26]
+head(we.mod)
+
+r <- cor(we.mod)
+r
+summary(r)
+
+r2 <- lm(Level_Num ~ Age      + Gender+ Air.Pollution +Alcohol.use +Dust.Allergy+ OccuPational.Hazards + Genetic.Risk+ chronic.Lung.Disease+ Balanced.Diet+     Obesity + 
+           Smoking + Passive.Smoker +  Chest.Pain + Coughing.of.Blood  +   Fatigue + Weight.Loss + Shortness.of.Breath +   Wheezing + Swallowing.Difficulty +
+           Clubbing.of.Finger.Nails+ Frequent.Cold  + Dry.Cough   +   Snoring , data = we.mod)
+summary(r2)
+
+# 군집 분석
+# 계층적 군집분석 / 비계층적 군집분석 (kmeans)
+# 주성분 분석 pca (독립변수를 새로운 변수로 차원 축소해서 회귀식을 설명)
+# 의사 결정 나무

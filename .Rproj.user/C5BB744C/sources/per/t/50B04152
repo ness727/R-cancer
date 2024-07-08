@@ -1,0 +1,27 @@
+{
+    "id": "50B04152",
+    "path": "D:/202012047/r/test.R",
+    "project_path": "test.R",
+    "type": "r_source",
+    "hash": "3814710433",
+    "contents": "",
+    "dirty": false,
+    "created": 1716958127205.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "13,11",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1716970285,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1716970285670,
+    "read_only": false,
+    "read_only_alternatives": []
+}
